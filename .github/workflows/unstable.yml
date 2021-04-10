@@ -3,6 +3,10 @@ name: Build/Release Unstable
 on:
   push:
     branches: [ dev ]
+    paths-ignore:
+    - '*/README.md'
+    - '*/LICENSE'
+    - '*/.gitignore'
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true

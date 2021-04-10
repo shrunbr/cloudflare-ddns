@@ -3,6 +3,10 @@ name: Build/Release Stable Candidate
 on:
   push:
     branches: [ master ]
+    paths-ignore:
+    - '*/README.md'
+    - '*/LICENSE'
+    - '*/.gitignore'
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
