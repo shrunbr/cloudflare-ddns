@@ -1,5 +1,7 @@
 # Cloudflare DDNS for Docker
 
+[![Build/Release Stable](https://github.com/shrunbr/cloudflare-ddns/actions/workflows/stable.yml/badge.svg)](https://github.com/shrunbr/cloudflare-ddns/actions/workflows/stable.yml) [![Build/Release Stable Candidate](https://github.com/shrunbr/cloudflare-ddns/actions/workflows/stable-rc.yml/badge.svg)](https://github.com/shrunbr/cloudflare-ddns/actions/workflows/stable-rc.yml)
+
 A simple docker app that runs on a set interval to check and update the specified DNS record in a YAML config file.
 
 * [Running with docker](#running-with-docker)
