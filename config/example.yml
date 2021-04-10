@@ -1,0 +1,10 @@
+token: "API KEY HERE"
+email: "ACCOUNT EMAIL HERE"
+use_ipv6: false
+use_cf_proxy: true
+logging_level: "INFO"
+timer: 900
+domains:
+    - "DOMAIN NAME"
+records:
+    - name: "RECORD NAME"
