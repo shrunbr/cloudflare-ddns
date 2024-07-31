@@ -9,6 +9,6 @@ RUN pip install -r requirements.txt
 # Copy files to /code
 COPY scripts/cf-ddns.py .
 # Label Source
-LABEL org.opencontainers.image.source https://github.com/shrunbr/cloudflare-ddns
+LABEL org.opencontainers.image.source=https://github.com/shrunbr/cloudflare-ddns
 # Execute script
 CMD ["python", "-u", "cf-ddns.py"]
