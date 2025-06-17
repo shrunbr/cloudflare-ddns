@@ -3,6 +3,9 @@ name: Build/Release Stable
 on:
   release:
     types: [ published ]
+permissions:
+  contents: read
+  packages: write
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
