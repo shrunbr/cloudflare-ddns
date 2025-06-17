@@ -1,5 +1,5 @@
 # Set image
-FROM python:3.8-alpine
+FROM python:3.13-alpine
 # Set working directory
 WORKDIR /code
 # Copy requirements.txt from app root folder to container

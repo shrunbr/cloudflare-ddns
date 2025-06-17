@@ -1,5 +1,5 @@
 # Set image
-FROM arm64v8/python:3.8-alpine
+FROM arm64v8/python:3.13-alpine
 # Set working directory
 WORKDIR /code
 # Copy requirements.txt from app root folder to container
